@@ -9,7 +9,7 @@ Member(s): Joshua Wang
 
 2. Would you use a unit test to test the “message” feature of a messaging application? Why or why not? For this question, assume the “message” feature allows a user to write and send a message to another user.
 
-No, because a unit test by itself is not enough to comprehensively test the entire messaging feature of the app. The "message" feature would be made up of multiple individual components that should each be unit tested, but you cannot test the whole "message" feature with just a unit test.
+No, because a unit test by itself is not enough to comprehensively test the entire messaging feature of the app. The "message" feature would be made up of multiple individual components that should each be unit tested, but you cannot test the whole "message" feature with just a unit test. Unit tests cannot cover one user typing up a message and sending it to another user, who receives and can read it.
 
 3. Would you use a unit test to test the “max message length” feature of a messaging application? Why or why not? For this question, assume the “max message length” feature prevents the user from typing more than 80 characters
 
